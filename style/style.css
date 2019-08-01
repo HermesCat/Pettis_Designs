@@ -1,0 +1,106 @@
+.resume {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.resume #resume-card {
+  margin-left: 8.5rem;
+  margin-right: 8.5rem;
+  border-radius: 2.5em;
+  background: #f1eded;
+}
+
+.resume #resume-card .profile-row #profile-pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 13.5rem;
+  width: 13.5rem;
+  border-radius: 50%;
+}
+
+.resume #resume-card #skills {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.resume #resume-card #skills .skills-section {
+  text-align: left;
+}
+
+.resume #resume-card #skills .skills-section .skills-list {
+  text-align: left;
+}
+
+.resume #resume-card .resume-qualification {
+  text-align: left;
+  margin-left: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+.resume #resume-card .jobs {
+  text-align: left;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+body {
+  background: #eeecec;
+}
+
+.animated-block {
+  height: 100vh;
+  width: 50%;
+  z-index: 2;
+  position: relative;
+  left: 50%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#0A0A0A), color-stop(45%, #1B1B1B), color-stop(65%, #242424), color-stop(75%, #1B1B1B), to(#0A0A0A));
+  background: linear-gradient(to bottom, #0A0A0A 0%, #1B1B1B 45%, #242424 65%, #1B1B1B 75%, #0A0A0A 100%);
+}
+
+header {
+  position: absolute;
+  background-color: inherit;
+  top: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0);
+}
+
+header .header-content {
+  position: relative;
+  top: 0;
+  z-index: 3;
+  color: white;
+}
+
+.showcase {
+  position: absolute;
+  top: 13vh;
+  z-index: 1;
+  width: 100%;
+}
+
+.showcase .showcase-heading {
+  font-size: 3.3rem;
+  margin-bottom: .5rem;
+}
+
+.showcase .resume-blurb {
+  font-size: 1.1rem;
+  margin-top: .5rem;
+  margin-bottom: .7rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.showcase .about {
+  width: 50%;
+}
+/*# sourceMappingURL=style.css.map */
