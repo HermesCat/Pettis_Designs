@@ -15,26 +15,30 @@
 <body>
     <!-- This is the animated block -->
     <div class="animated-block">
-
+        <div class="row">
+            <div class="col-12">
+                <nav id="secondary-nav">
+                    <h3 class="secondary-nav-item resume-click secondary-active" href="#">RESUME</h3>
+                    <h3 class="secondary-nav-item about-click" href="#">ABOUT/CONTACT</h3>
+                    <h3 class="secondary-nav-item portfolio-click" href="#">PORTFOLIO</h3>
+                </nav>
+            </div>
+        </div>
     </div>
     <div class="page-wrapper">
         <header>
             <div class="header-content">
                 <nav class="navbar">
-                    <a class="navbar-brand" href="#">
-                        <img src="/docs/4.3/assets/brand/bootstrap-solid.svg" width="30" height="30"
-                            class="d-inline-block align-top" alt="">
-                        Bootstrap
-                    </a>
+                    <div class="main-title"><span class="highlighter">Pettis</span>Designs</div>
                     <ul class="nav justify-content-end">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">RESUME</a>
+                            <a class="nav-link resume-click  active" href="#">RESUME</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">ABOUT/CONTACT</a>
+                            <a class="nav-link about-click" href="#">ABOUT/CONTACT</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">PORTFOLIO</a>
+                            <a class="nav-link portfolio-click" href="#">PORTFOLIO</a>
                         </li>
                     </ul>
                 </nav>
@@ -42,66 +46,77 @@
         </header>
         <div class="container-fluid showcase">
             <div class="row">
-                <!---- this will be my resume  ------------------------>
+                <!---- this will be my about page  ------------------------>
                 <div class="col-6 about">
-
+                    <div class="row">
+                        <h3>Contact:</h3>
+                    </div>
+                    <div class="row">
+                        <ul>
+                            <li>John Pettis</li>
+                            <li>Email: <a>JohnPettisDesigns@gmail.com</a></li>
+                            <li>GitHub: HermesCat</li>
+                        </ul>
+                    </div>
+                    <div class="row">
+                        <h3>Powered By:</h3>
+                    </div>
                 </div>
-                <!---- this is my about page ----------------------------------------------->
+                <!---- this is my resume page ----------------------------------------------->
                 <div class="col-6 resume">
-                    <div class="card" id="resume-card">
-                        <div class="row">
-                            <div class="col-12">
-                                <h2 class="showcase-heading">Full Stack Web Development</h2>
-                            </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="showcase-heading"><span class="color-highlight">Full Stack</span> Web Development
+                            </h2>
                         </div>
-                        <div class="row profile-row">
-                            <img src="style/img/WorkPicture.jpg" id="profile-pic" alt="profile-image">
+                    </div>
+                    <div class="row profile-row">
+                        <img src="style/img/WorkPicture.jpg" id="profile-pic" alt="profile-image">
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="resume-blurb">Merging Creative Energy with Utilitarian Sensibilities: A Full
+                                Stack Wed Developer from Richmond, VA. I am focused on creating websites that are
+                                both versatile and visually appealing. </h3>
                         </div>
-                        <div class="row">
-                            <div class="col-12">
-                                <h3 class="resume-blurb">Merging Creative Energy with Utilitarian Sensibilities: A Full
-                                    Stack Wed Developer from Richmond, VA. I am focused on creating websites that are
-                                    both versatile and visually appealing. </h3>
-                            </div>
-                        </div>
-                        <div class="row" id="skills">
-                            <ul class="skills-list">
-                                <li class="skills-list">React.js</li>
-                                <li class="skills-list">Node.js</li>
-                                <li class="skills-list">MySQL</li>
-                                <li class="skills-list">MongoDB</li>
-                                <li class="skills-list">Express</li>
+                    </div>
+                    <div class="row" id="skills">
+                        <ul class="skills-list">
+                            <li class="skills-list">React.js</li>
+                            <li class="skills-list">Node.js</li>
+                            <li class="skills-list">MySQL</li>
+                            <li class="skills-list">MongoDB</li>
+                            <li class="skills-list">Express</li>
+                        </ul>
+                        <ul class="skills-section">
+                            <li class="skills-list">HTML</li>
+                            <li class="skills-list">CSS</li>
+                            <li class="skills-list">Javascript</li>
+                            <li class="skills-list">SASS</li>
+                            <li class="skills-list">Bootstrap</li>
+                        </ul>
+                        <ul class="skills-section">
+                            <li class="skills-list">Adobe Photoshop</li>
+                            <li class="skills-list">Adobe Illustrator</li>
+                            <li class="skills-list">Adobe Illustrator</li>
+                            <li class="skills-list">Microsoft Office</li>
+                            <li class="skills-list">Adobe Photoshop</li>
+                        </ul>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="resume-qualification">Certifications:</h3>
+                            <ul class="jobs">
+                                <li class="skills-list">Full Stack Web Development, University of Richmond Coding
+                                    Bootcamp</li>
                             </ul>
-                            <ul class="skills-section">
-                                <li class="skills-list">HTML</li>
-                                <li class="skills-list">CSS</li>
-                                <li class="skills-list">Javascript</li>
-                                <li class="skills-list">SASS</li>
-                                <li class="skills-list">Bootstrap</li>
+                            <h3 class="resume-qualification">Education:</h3>
+                            <ul class="jobs">
+                                <li class="skills-list">Master of Arts in English, Virginia Commonwealth University
+                                    2016 (Richmond, VA)</li>
+                                <li class="skills-list">Bachelor of Arts in English, Virginia Commonwealth
+                                    University 2013 (Richmond, VA)</li>
                             </ul>
-                            <ul class="skills-section">
-                                <li class="skills-list">Adobe Photoshop</li>
-                                <li class="skills-list">Adobe Illustrator</li>
-                                <li class="skills-list">Adobe Illustrator</li>
-                                <li class="skills-list">Microsoft Office</li>
-                                <li class="skills-list">Adobe Photoshop</li>
-                            </ul>
-                        </div>
-                        <div class="row">
-                            <div class="col-12">
-                                <h3 class="resume-qualification">Certifications:</h3>
-                                <ul class="jobs">
-                                    <li class="skills-list">Full Stack Web Development, University of Richmond Coding
-                                        Bootcamp</li>
-                                </ul>
-                                <h3 class="resume-qualification">Education:</h3>
-                                <ul class="jobs">
-                                    <li class="skills-list">Master of Arts in English, Virginia Commonwealth University
-                                        2016 (Richmond, VA)</li>
-                                    <li class="skills-list">Bachelor of Arts in English, Virginia Commonwealth
-                                        University 2013 (Richmond, VA)</li>
-                                </ul>
-                            </div>
                         </div>
                     </div>
                 </div>

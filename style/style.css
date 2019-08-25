@@ -1,68 +1,62 @@
 .resume {
   width: 50%;
   margin: 0 auto;
-  text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding: 0;
+  margin-top: 30px;
 }
 
-.resume #resume-card {
-  margin-left: 8.5rem;
-  margin-right: 8.5rem;
-  border-radius: 2.5em;
-  background: #f1eded;
+.resume .color-highlight {
+  color: #ffa500;
 }
 
-.resume #resume-card .profile-row #profile-pic {
+.resume .profile-row {
+  background-image: url("./img/black-and-white-electronics-orange.jpg");
+  background-size: 100%;
+  background-position-y: 25%;
+  background-repeat: no-repeat;
+  height: 14rem;
+  width: 100%;
+  margin: 0;
+  border-top: 4px solid #ffa500;
+  border-bottom: 4px solid #ffa500;
+}
+
+.resume .profile-row #profile-pic {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  height: 13.5rem;
-  width: 13.5rem;
+  height: 13.4rem;
+  width: 13.4rem;
+  border: 4px solid #ffa500;
   border-radius: 50%;
+  position: relative;
+  left: 25vh;
+  top: .1rem;
 }
 
-.resume #resume-card #skills {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.resume #resume-card #skills .skills-section {
+.resume #skills .skills-section {
   text-align: left;
 }
 
-.resume #resume-card #skills .skills-section .skills-list {
+.resume #skills .skills-section .skills-list {
   text-align: left;
 }
 
-.resume #resume-card .resume-qualification {
+.resume .resume-qualification {
   text-align: left;
   margin-left: 1rem;
   margin-bottom: 1.2rem;
 }
 
-.resume #resume-card .jobs {
+.resume .jobs {
   text-align: left;
   -webkit-box-pack: left;
       -ms-flex-pack: left;
           justify-content: left;
-}
-
-body {
-  background: #eeecec;
-}
-
-.animated-block {
-  height: 100vh;
-  width: 50%;
-  z-index: 2;
-  position: relative;
-  left: 50%;
-  background: -webkit-gradient(linear, left top, left bottom, from(#0A0A0A), color-stop(45%, #1B1B1B), color-stop(65%, #242424), color-stop(75%, #1B1B1B), to(#0A0A0A));
-  background: linear-gradient(to bottom, #0A0A0A 0%, #1B1B1B 45%, #242424 65%, #1B1B1B 75%, #0A0A0A 100%);
 }
 
 header {
@@ -80,11 +74,81 @@ header .header-content {
   color: white;
 }
 
+header .header-content .main-title {
+  font-size: 3rem;
+  margin-top: 2rem;
+}
+
+header .header-content .main-title .highlighter {
+  background: #ffa500;
+  padding: .5rem;
+  margin: 0;
+  border-radius: .5em;
+  color: black;
+}
+
+header .header-content .nav-item .nav-link {
+  color: black;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+header .header-content .nav-item .nav-link:hover {
+  color: grey;
+}
+
+header .header-content .nav-item .active {
+  color: #ffa500;
+  text-decoration: underline;
+}
+
+body {
+  background: #eeecec;
+  margin: 0;
+}
+
+.animated-block {
+  height: 100vh;
+  width: 50%;
+  z-index: 2;
+  position: fixed;
+  overflow: hidden;
+  background: -webkit-gradient(linear, left top, left bottom, from(#0A0A0A), color-stop(45%, #1B1B1B), color-stop(65%, #242424), color-stop(75%, #1B1B1B), to(#0A0A0A));
+  background: linear-gradient(to bottom, #0A0A0A 0%, #1B1B1B 45%, #242424 65%, #1B1B1B 75%, #0A0A0A 100%);
+}
+
+.animated-block #secondary-nav {
+  color: #eeecec;
+  position: relative;
+  top: 40vh;
+}
+
+.animated-block #secondary-nav .secondary-nav-item {
+  font-size: 4rem;
+  margin-bottom: 2.5rem;
+  margin-left: 1.3rem;
+  cursor: pointer;
+}
+
+.animated-block #secondary-nav .secondary-nav-item:hover {
+  color: grey;
+  font-size: 4.5rem;
+}
+
+.animated-block #secondary-nav .secondary-active {
+  font-size: 4.5rem;
+  text-decoration: underline;
+  color: #ffa500;
+}
+
 .showcase {
   position: absolute;
+  overflow: none;
   top: 13vh;
   z-index: 1;
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .showcase .showcase-heading {

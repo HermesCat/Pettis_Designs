@@ -1,39 +1,52 @@
 @import "./colors";
 @import "./resume";
+@import "./about";
+@import "./header";
 
 body {
     background: #eeecec;
+    margin: 0;
   }
   
   .animated-block {
     height: 100vh;
     width: 50%;
     z-index: 2;
-    position: relative;
-    left: 50%;
+    position: fixed;
+    overflow: hidden;
+    // left: 50%;
     background: -webkit-gradient(linear, left top, left bottom, from(#0A0A0A), color-stop(45%, #1B1B1B), color-stop(65%, #242424), color-stop(75%, #1B1B1B), to(#0A0A0A));
     background: linear-gradient(to bottom, #0A0A0A 0%, #1B1B1B 45%, #242424 65%, #1B1B1B 75%, #0A0A0A 100%);
-  }
-  
-  header {
-    position: absolute;
-    background-color: inherit;
-    top: 0;
-    width: 100%;
-    background: rgba(0, 0, 0, 0);
-     .header-content {
-      position: relative;
-      top: 0;
-      z-index: 3;
-      color: white
-    }
+      #secondary-nav {
+        color: #eeecec;
+        position: relative;
+        top: 40vh;
+          .secondary-nav-item {
+            font-size: 4rem;
+            margin-bottom: 2.5rem;
+            margin-left: 1.3rem;
+            cursor: pointer;
+          }
+          .secondary-nav-item:hover {
+            color: grey;
+            font-size: 4.5rem;
+          }
+          .secondary-active {
+            font-size: 4.5rem;
+            text-decoration: underline;
+            color: $main-color;
+          }
+      }
   }
 
 .showcase {
     position: absolute;
+    overflow: none;
     top: 13vh;
     z-index: 1;
     width: 100%;
+    margin: 0;
+    padding: 0;
     .showcase-heading {
         font-size: 3.3rem;
         margin-bottom: .5rem;
