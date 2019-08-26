@@ -2,9 +2,10 @@
 @import "./resume";
 @import "./about";
 @import "./header";
+@import "./portfolio";
 
 body {
-    background: #eeecec;
+    background: $background-color;
     margin: 0;
   }
   
@@ -47,9 +48,13 @@ body {
     width: 100%;
     margin: 0;
     padding: 0;
+    .color-highlight {
+      color: $main-color;
+  }
     .showcase-heading {
         font-size: 3.3rem;
         margin-bottom: .5rem;
+        margin-left: 20px;
     }
     .resume-blurb {
         font-size: 1.1rem;

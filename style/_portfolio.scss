@@ -1,0 +1,33 @@
+.portfolio-container{
+    width: 80%;
+    justify-content: center;
+    overflow: none;
+    padding-left: 50px;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 30px;
+    .portfolio-card{
+        justify-content: center;
+        background: $secondary-color;
+        width: 80%;
+        .color-highlight {
+            color: $main-color;
+        }
+          .showcase-heading {
+              font-size: 3.3rem;
+              margin-bottom: .5rem;
+              margin-left: 20px;
+          }
+          .showcase-portfolio-heading {
+            margin-left: 10px;
+        }
+        .portfolio-item-row {
+            justify-content: center;
+            .portfolio-item {
+                margin-left: 1rem;
+                margin-right: 1rem;
+            }
+        }
+    }
+
+}

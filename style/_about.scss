@@ -1,0 +1,31 @@
+.about {
+    width: 50%;
+    overflow: none;
+    padding-left: 50px;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 30px;
+}
+
+.about-card {
+    background: $secondary-color;
+    padding-left: 80px;
+    color: $text-color
+}
+
+.showcase-about-heading {
+    margin-left: 8px;
+}
+
+// should match the profile pic row on the resume scss page
+.contact-img-row {
+    background-image: url("./img/capacitors-chip-circuit-2588757.jpg");
+            background-size: 100%;
+            background-position-y: 25%;
+            background-repeat: no-repeat;
+            height: 14rem;
+            width: 100%;
+            margin: 0;
+            border-top: 4px solid $main-color;
+            border-bottom: 4px solid $main-color;
+}

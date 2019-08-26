@@ -8,10 +8,6 @@
   margin-top: 30px;
 }
 
-.resume .color-highlight {
-  color: #ffa500;
-}
-
 .resume .profile-row {
   background-image: url("./img/black-and-white-electronics-orange.jpg");
   background-size: 100%;
@@ -38,25 +34,76 @@
   top: .1rem;
 }
 
-.resume #skills .skills-section {
+.resume .resume-text {
+  background: #c9c5c5;
+}
+
+.resume .resume-text h3 {
+  color: #212529;
+}
+
+.resume .resume-text .resume-blurb {
+  color: #212529;
+}
+
+.resume .resume-text #skills {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.resume .resume-text #skills .skills-section {
   text-align: left;
 }
 
-.resume #skills .skills-section .skills-list {
+.resume .resume-text #skills .skills-section .skills-list {
+  font-size: 1.5rem;
+  margin-left: 10px;
   text-align: left;
 }
 
-.resume .resume-qualification {
+.resume .resume-text .resume-qualification {
   text-align: left;
   margin-left: 1rem;
   margin-bottom: 1.2rem;
 }
 
-.resume .jobs {
+.resume .resume-text .jobs {
   text-align: left;
   -webkit-box-pack: left;
       -ms-flex-pack: left;
           justify-content: left;
+}
+
+.about {
+  width: 50%;
+  overflow: none;
+  padding-left: 50px;
+  margin: 0 auto;
+  padding: 0;
+  margin-top: 30px;
+}
+
+.about-card {
+  background: #c9c5c5;
+  padding-left: 80px;
+  color: #212529;
+}
+
+.showcase-about-heading {
+  margin-left: 8px;
+}
+
+.contact-img-row {
+  background-image: url("./img/capacitors-chip-circuit-2588757.jpg");
+  background-size: 100%;
+  background-position-y: 25%;
+  background-repeat: no-repeat;
+  height: 14rem;
+  width: 100%;
+  margin: 0;
+  border-top: 4px solid #ffa500;
+  border-bottom: 4px solid #ffa500;
 }
 
 header {
@@ -70,7 +117,7 @@ header {
 header .header-content {
   position: relative;
   top: 0;
-  z-index: 3;
+  z-index: 4;
   color: white;
 }
 
@@ -102,8 +149,53 @@ header .header-content .nav-item .active {
   text-decoration: underline;
 }
 
+.portfolio-container {
+  width: 80%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: none;
+  padding-left: 50px;
+  margin: 0 auto;
+  padding: 0;
+  margin-top: 30px;
+}
+
+.portfolio-container .portfolio-card {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #c9c5c5;
+  width: 80%;
+}
+
+.portfolio-container .portfolio-card .color-highlight {
+  color: #ffa500;
+}
+
+.portfolio-container .portfolio-card .showcase-heading {
+  font-size: 3.3rem;
+  margin-bottom: .5rem;
+  margin-left: 20px;
+}
+
+.portfolio-container .portfolio-card .showcase-portfolio-heading {
+  margin-left: 10px;
+}
+
+.portfolio-container .portfolio-card .portfolio-item-row {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.portfolio-container .portfolio-card .portfolio-item-row .portfolio-item {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
 body {
-  background: #eeecec;
+  background: #6b6969;
   margin: 0;
 }
 
@@ -151,9 +243,14 @@ body {
   padding: 0;
 }
 
+.showcase .color-highlight {
+  color: #ffa500;
+}
+
 .showcase .showcase-heading {
   font-size: 3.3rem;
   margin-bottom: .5rem;
+  margin-left: 20px;
 }
 
 .showcase .resume-blurb {

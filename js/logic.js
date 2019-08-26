@@ -9,6 +9,13 @@ $(".about-click").click(function () {
         portfolio = false;
         about = true;
         $(".animated-block").animate({
+            width: "75%"
+        });
+        $(".animated-block").animate({
+            width: "100%"
+        });
+        $(".animated-block").animate({
+            width: "50%",
             left: "50%"
         });
         aboutFormat();
@@ -21,11 +28,51 @@ $(".resume-click").click(function () {
         portfolio = false;
         about = false;
         $(".animated-block").animate({
+            width: "75%",
+            left: "25%"
+        });
+        $(".animated-block").animate({
+            width: "100%",
+            left: "0%"
+        });
+        $(".animated-block").animate({
+            width: "50%",
             left: "0%"
         });
         resumeFormat();
     }
 });
+
+$(".portfolio-click").click(function () {
+    if (about === true) {
+        resume = true;
+        portfolio = false;
+        about = false;
+        $(".animated-block").animate({
+            width: "75%",
+            left: "25%"
+        });
+        $(".animated-block").animate({
+            width: "100%",
+            left: "0%"
+        });
+        $(".animated-block").animate({
+            bottom: "50%"
+        });
+        $(".animated-block").animate({
+            bottom: "80%"
+        });
+        $(".animated-block").animate({
+            bottom: "100%"
+        });
+        $(".showcase").hide();
+        $(".portfolio-container").animate({
+            bottom: "65%"
+        });
+        resumeFormat();
+    }
+});
+
 
 function aboutFormat() {
     if (about === true) {
