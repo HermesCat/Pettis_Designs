@@ -150,48 +150,16 @@ header .header-content .nav-item .active {
 }
 
 .portfolio-container {
-  width: 80%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   overflow: none;
-  padding-left: 50px;
-  margin: 0 auto;
   padding: 0;
-  margin-top: 30px;
+  margin-top: 325px;
 }
 
-.portfolio-container .portfolio-card {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background: #c9c5c5;
-  width: 80%;
-}
-
-.portfolio-container .portfolio-card .color-highlight {
-  color: #ffa500;
-}
-
-.portfolio-container .portfolio-card .showcase-heading {
-  font-size: 3.3rem;
-  margin-bottom: .5rem;
-  margin-left: 20px;
-}
-
-.portfolio-container .portfolio-card .showcase-portfolio-heading {
-  margin-left: 10px;
-}
-
-.portfolio-container .portfolio-card .portfolio-item-row {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.portfolio-container .portfolio-card .portfolio-item-row .portfolio-item {
-  margin-left: 1rem;
-  margin-right: 1rem;
+.portfolio-container .site-icon {
+  width: 300px;
+  height: 300px;
+  margin-top: 10px;
+  border-radius: 2em;
 }
 
 body {
@@ -263,5 +231,9 @@ body {
 
 .showcase .about {
   width: 50%;
+}
+
+.page-wrapper {
+  overflow: hidden;
 }
 /*# sourceMappingURL=style.css.map */
