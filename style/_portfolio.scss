@@ -1,14 +1,53 @@
+.icon-1 {
+    background-image: url(./img/SiteIcon6.jpg);
+}
+.icon-2 {
+    background-image: url(./img/SiteIcon-fv.jpg);
+}
+.icon-3 {
+    background-image: url(./img/SiteIcon-gb.jpg);
+}
+.icon-4 {
+    background-image: url(./img/SiteIcon4.jpg);
+}
+.icon-5 {
+    background-image: url(./img/SiteIcon3.jpg);
+}
+.icon-6 {
+    background-image: url(./img/SiteIcon2.jpg);
+}
 
-.image-wrapper {
-    .portfolio-container{
-        overflow: none;
-        padding: 0;
-        margin-top: 275px;
+.portfolio-container{
+    overflow: none;
+    padding: 0;
+    max-width: 100%;
+    margin-top: 275px;
+    .img-row {
+        justify-content: center;
         .site-icon {
-            width: 300px;
-            height: 300px;
-            margin: 10px;
+            position: relative;
+            width: 245px;
+            height: 245px;
+            border: $main-color 4px solid;
             border-radius: 2em;
+            background-size: 240px 240px;
+            margin: 5px;
+            .label-block {
+                position: relative;
+                top: 175px; 
+                height: 40px;
+                width: 238px;
+                background: $main-color;
+            }
+        }
+        .site-icon:hover {
+           border: rgb(0, 0, 0) 4px solid;
+           opacity: .7;
+           .label-block {
+            background: rgb(0, 0, 0);
+            opacity: .7;
+        }
         }
     }
+
 }

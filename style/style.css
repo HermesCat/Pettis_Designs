@@ -1,0 +1,291 @@
+.resume {
+  width: 50%;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
+  margin-top: 30px;
+}
+
+.resume .profile-row {
+  background-image: url("./img/black-and-white-electronics-orange.jpg");
+  background-size: 100%;
+  background-position-y: 25%;
+  background-repeat: no-repeat;
+  height: 14rem;
+  width: 100%;
+  margin: 0;
+  border-top: 4px solid #ffa500;
+  border-bottom: 4px solid #ffa500;
+}
+
+.resume .profile-row #profile-pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 13.4rem;
+  width: 13.4rem;
+  border: 4px solid #ffa500;
+  border-radius: 50%;
+  position: relative;
+  left: 25vh;
+  top: .1rem;
+}
+
+.resume .resume-text {
+  background: #c9c5c5;
+}
+
+.resume .resume-text h3 {
+  color: #212529;
+}
+
+.resume .resume-text .resume-blurb {
+  color: #212529;
+}
+
+.resume .resume-text #skills {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.resume .resume-text #skills .skills-section {
+  text-align: left;
+}
+
+.resume .resume-text #skills .skills-section .skills-list {
+  font-size: 1.5rem;
+  margin-left: 10px;
+  text-align: left;
+}
+
+.resume .resume-text .resume-qualification {
+  text-align: left;
+  margin-left: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+.resume .resume-text .jobs {
+  text-align: left;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+.about {
+  width: 50%;
+  overflow: none;
+  padding-left: 50px;
+  margin: 0 auto;
+  padding: 0;
+  margin-top: 30px;
+}
+
+.about-card {
+  background: #c9c5c5;
+  padding-left: 80px;
+  color: #212529;
+}
+
+.showcase-about-heading {
+  margin-left: 8px;
+}
+
+.contact-img-row {
+  background-image: url("./img/capacitors-chip-circuit-2588757.jpg");
+  background-size: 100%;
+  background-position-y: 25%;
+  background-repeat: no-repeat;
+  height: 14rem;
+  width: 100%;
+  margin: 0;
+  border-top: 4px solid #ffa500;
+  border-bottom: 4px solid #ffa500;
+}
+
+header {
+  position: absolute;
+  background-color: inherit;
+  top: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0);
+}
+
+header .header-content {
+  position: relative;
+  top: 0;
+  z-index: 4;
+  color: white;
+}
+
+header .header-content .main-title {
+  font-size: 3rem;
+  margin-top: 2rem;
+}
+
+header .header-content .main-title .highlighter {
+  background: #ffa500;
+  padding: .5rem;
+  margin: 0;
+  border-radius: .5em;
+  color: black;
+}
+
+header .header-content .nav-item .nav-link {
+  color: black;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+header .header-content .nav-item .nav-link:hover {
+  color: grey;
+}
+
+header .header-content .nav-item .active {
+  color: #ffa500;
+  text-decoration: underline;
+}
+
+.icon-1 {
+  background-image: url(./img/SiteIcon6.jpg);
+}
+
+.icon-2 {
+  background-image: url(./img/SiteIcon-fv.jpg);
+}
+
+.icon-3 {
+  background-image: url(./img/SiteIcon-gb.jpg);
+}
+
+.icon-4 {
+  background-image: url(./img/SiteIcon4.jpg);
+}
+
+.icon-5 {
+  background-image: url(./img/SiteIcon3.jpg);
+}
+
+.icon-6 {
+  background-image: url(./img/SiteIcon2.jpg);
+}
+
+.portfolio-container {
+  overflow: none;
+  padding: 0;
+  max-width: 100%;
+  margin-top: 275px;
+}
+
+.portfolio-container .img-row {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.portfolio-container .img-row .site-icon {
+  position: relative;
+  width: 245px;
+  height: 245px;
+  border: #ffa500 4px solid;
+  border-radius: 2em;
+  background-size: 240px 240px;
+  margin: 5px;
+}
+
+.portfolio-container .img-row .site-icon .label-block {
+  position: relative;
+  top: 175px;
+  height: 40px;
+  width: 238px;
+  background: #ffa500;
+}
+
+.portfolio-container .img-row .site-icon:hover {
+  border: black 4px solid;
+  opacity: .7;
+}
+
+.portfolio-container .img-row .site-icon:hover .label-block {
+  background: black;
+  opacity: .7;
+}
+
+body {
+  background: #6b6969;
+  margin: 0;
+}
+
+.animated-block {
+  height: 100vh;
+  width: 50%;
+  z-index: 2;
+  position: fixed;
+  overflow: hidden;
+  background: -webkit-gradient(linear, left top, left bottom, from(#0A0A0A), color-stop(45%, #1B1B1B), color-stop(65%, #242424), color-stop(75%, #1B1B1B), to(#0A0A0A));
+  background: linear-gradient(to bottom, #0A0A0A 0%, #1B1B1B 45%, #242424 65%, #1B1B1B 75%, #0A0A0A 100%);
+}
+
+.animated-block #secondary-nav {
+  color: #eeecec;
+  position: relative;
+  top: 40vh;
+}
+
+.animated-block #secondary-nav .secondary-nav-item {
+  font-size: 4rem;
+  margin-bottom: 2.5rem;
+  margin-left: 1.3rem;
+  cursor: pointer;
+}
+
+.animated-block #secondary-nav .secondary-nav-item:hover {
+  color: grey;
+  font-size: 4.5rem;
+}
+
+.animated-block #secondary-nav .secondary-active {
+  font-size: 4.5rem;
+  text-decoration: underline;
+  color: #ffa500;
+}
+
+.showcase {
+  position: absolute;
+  overflow: none;
+  top: 13vh;
+  z-index: 1;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.showcase .color-highlight {
+  color: #ffa500;
+}
+
+.showcase .showcase-heading {
+  font-size: 3.3rem;
+  margin-bottom: .5rem;
+  margin-left: 20px;
+}
+
+.showcase .resume-blurb {
+  font-size: 1.1rem;
+  margin-top: .5rem;
+  margin-bottom: .7rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.showcase .about {
+  width: 50%;
+}
+
+.page-wrapper {
+  overflow: hidden;
+}
+/*# sourceMappingURL=style.css.map */
