@@ -1,14 +1,18 @@
-
-.image-wrapper {
-    .portfolio-container{
-        overflow: none;
-        padding: 0;
-        margin-top: 275px;
+.portfolio-container{
+    overflow: none;
+    padding: 0;
+    max-width: 100%;
+    margin-top: 275px;
+    .img-row {
+        justify-content: center;
         .site-icon {
-            width: 300px;
-            height: 300px;
-            margin: 10px;
+            position: relative;
+            width: 245px;
+            height: 245px;
+            border: $main-color 4px solid;
             border-radius: 2em;
+            margin: 5px;
         }
     }
+
 }
