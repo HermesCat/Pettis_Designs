@@ -1,12 +1,14 @@
-.portfolio-container{
-    overflow: none;
-    padding: 0;
-    margin-top: 325px;
-    .site-icon {
-        width: 300px;
-        height: 300px;
-        margin-top: 10px;
-        border-radius: 2em;
-    }
 
+.image-wrapper {
+    .portfolio-container{
+        overflow: none;
+        padding: 0;
+        margin-top: 275px;
+        .site-icon {
+            width: 300px;
+            height: 300px;
+            margin: 10px;
+            border-radius: 2em;
+        }
+    }
 }
