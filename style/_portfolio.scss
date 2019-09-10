@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .icon-1 {
     background-image: url(./img/SiteIcon6.jpg);
 }
@@ -18,37 +17,61 @@
     background-image: url(./img/SiteIcon2.jpg);
 }
 
-=======
->>>>>>> 0276f8adaa166d1a277d59dca023bd1e3b9f7fd5
 .portfolio-container{
     overflow: none;
     padding: 0;
     max-width: 100%;
-    margin-top: 275px;
-    .img-row {
-        justify-content: center;
-        .site-icon {
-            position: relative;
-            width: 245px;
-            height: 245px;
-            border: $main-color 4px solid;
-            border-radius: 2em;
-            background-size: 240px 240px;
-            margin: 5px;
-            .label-block {
+    margin-top: 200px;
+    .portfolio-card {
+        width: 40%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border: $main-color 4px solid;
+        background: none;
+        border-radius: 2em;
+        margin: 0 auto;
+        .img-row {
+            justify-content: center;
+            a {
+                text-decoration: none;
+                text-align: center;
+            }
+            .site-icon {
                 position: relative;
-                top: 175px; 
-                height: 40px;
-                width: 238px;
-                background: $main-color;
+                width: 210px;
+                height: 210px;
+                border: $main-color 4px solid;
+                border-radius: 2em;
+                background-size: 210px 210px;
+                margin: 5px;
+                .label-block {
+                    position: relative;
+                    top: 150px; 
+                    height: 40px;
+                    width: 202px;
+                    background: $main-color;
+                    text-decoration: none;
+                    color: $background-color;
+                    font-family: 'Lato', sans-serif;
+                    font-weight: bold;
+                    font-size: 22px;
+                    padding-top: 3px;
+                }
+            }
+            .site-icon:hover {
+               border: rgb(0, 0, 0) 4px solid;
+               opacity: .7;
+               .label-block {
+                background: rgb(0, 0, 0);
+                opacity: .7;
             }
         }
-        .site-icon:hover {
-           border: rgb(0, 0, 0) 4px solid;
-           opacity: .7;
-           .label-block {
-            background: rgb(0, 0, 0);
-            opacity: .7;
-        }
+    }
     }
 }
+
+
+    .portfolio-heading {
+        text-align: center; 
+    }
+

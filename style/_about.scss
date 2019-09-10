@@ -8,7 +8,8 @@
 }
 
 .about-card {
-    background: $secondary-color;
+    margin-top: 10px;
+    background: none;
     padding-left: 80px;
     color: $text-color
 }
@@ -16,6 +17,22 @@
 .showcase-about-heading {
     margin-left: 8px;
 }
+
+.nobull {
+    list-style-type: none;
+    .contact-li{
+        font-size: 28px;
+        margin: 10px;
+            a {
+                text-decoration: none;
+                color: $text-color;
+            }
+            a:hover {
+                color: $main-color;
+            }
+    }
+}
+
 
 // should match the profile pic row on the resume scss page
 .contact-img-row {
@@ -28,4 +45,14 @@
             margin: 0;
             border-top: 4px solid $main-color;
             border-bottom: 4px solid $main-color;
+}
+
+img .contact-icon {
+    width: 20%;
+    height: auto;
+}
+
+.powered-by {
+    margin: 8px;
+    border-radius: 1.5em;
 }

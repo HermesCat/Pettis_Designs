@@ -42,7 +42,7 @@ body {
 
 .showcase {
     position: absolute;
-    overflow: none;
+    overflow: hidden;
     top: 13vh;
     z-index: 1;
     width: 100%;
@@ -72,4 +72,8 @@ body {
 
 .page-wrapper {
   overflow: hidden;
+}
+
+.color-highlight {
+  color: $main-color;
 }
