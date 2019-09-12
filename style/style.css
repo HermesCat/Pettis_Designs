@@ -405,7 +405,7 @@ header .header-content .nav-item .active {
 .main-title {
   font-size: 2rem;
   margin-top: 2px;
-  padding-right: 9px;
+  padding-right: 2px;
   color: white;
   border: 3px solid #ffa500;
 }
@@ -462,11 +462,16 @@ header .header-content .nav-item .active {
 }
 
 #mob-skills .resume-qualification {
-  margin-left: 15px;
+  margin-left: 18px;
 }
 
-#mob-skills .resume-qualification .jobs .skills-list {
-  font-size: 12px;
+.jobs .skills-list {
+  font-size: 14px;
+  margin-right: 2px;
+}
+
+.mob-skill-row {
+  margin: 0 auto;
 }
 
 @media only screen and (min-width: 800px) {
@@ -476,6 +481,15 @@ header .header-content .nav-item .active {
     border-radius: 50%;
     border: 2px solid #ffa500;
     margin-top: 25px;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .skills-section .skills-list {
+    font-size: 20px;
+  }
+  .jobs .skills-list {
+    font-size: 20px;
   }
 }
 

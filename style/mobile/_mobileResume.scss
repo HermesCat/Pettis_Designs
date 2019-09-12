@@ -39,15 +39,14 @@
             text-decoration: underline;
             text-decoration-color: orange !important;
         }
-
     }
-
 }
+
 
 .main-title {
     font-size: 2rem;
     margin-top: 2px;
-    padding-right: 9px;
+    padding-right: 2px;
     color: white;
     border: 3px solid $main-color;
 
@@ -96,18 +95,22 @@
         margin-right: 2px;
         margin-bottom: 8px;
     }
-    .resume-qualification {
-        margin-left: 15px;
-        .jobs {
-            .skills-list {
-                font-size: 12px;
-            }
-        }
 
+    .resume-qualification {
+        margin-left: 18px;
+        }
+}
+
+.jobs {
+    .skills-list {
+        font-size: 14px;
+        margin-right: 2px;
     }
 }
 
-
+.mob-skill-row {
+    margin: 0 auto;
+}
 
 
 @media only screen and (min-width: 800px) {
@@ -117,5 +120,19 @@
         border-radius: 50%;
         border: 2px solid $main-color;
         margin-top: 25px;
+    }
+}
+
+
+@media only screen and (min-width: 500px) {
+    .skills-section {
+        .skills-list {
+            font-size: 20px;
+        }
+    }
+    .jobs {
+        .skills-list {
+            font-size: 20px;
+        }
     }
 }
