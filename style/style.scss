@@ -5,6 +5,12 @@
 @import "./portfolio";
 @import "./mobile/mobileResume";
 
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 body {
     background: $background-color;
     margin: 0;
@@ -108,6 +114,13 @@ p {
           }
       }
   }
+  .showcase {
+    .showcase-heading {
+      font-size: 2rem;
+      margin-bottom: .5rem;
+      margin-left: 10px;
+  }
+}
 }
 
 @media only screen and (max-width: 1000px) {
@@ -124,6 +137,9 @@ p {
 
 @media only screen and (min-width: 999px) {
   .mobile-wrapper {
+    display: none;
+  }
+  .mob-footer {
     display: none;
   }
 }

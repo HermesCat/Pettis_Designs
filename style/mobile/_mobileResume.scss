@@ -1,5 +1,21 @@
 
 
+.mobile-wrapper {
+    overflow: hidden;
+    min-height: 95%;
+}
+.mob-footer {
+    padding-top: 3px;
+    min-height: 5%;
+    overflow: auto;
+    background: $animated-box-color;
+    text-align: center;
+    h5 {
+        color: white;
+        margin-top: 2px;
+    }
+}
+
 .navbar-mobile {
     background: $animated-box-color;
 }
@@ -14,7 +30,7 @@
             color: grey;
         }
         .nav-link {
-            color: white;
+            color: white !important;
             font-weight: bold;
             font-size: 1.2rem; 
         }
@@ -34,14 +50,72 @@
     padding-right: 9px;
     color: white;
     border: 3px solid $main-color;
-    .highlighter {
-        padding: .5rem;
-        margin: 0;
-        color: $main-color;
-    }
+
+}
+
+.highlighter {
+    padding: .5rem;
+    margin: 0;
+    padding: 0;
+    color: $main-color;
 }
 
 .navbar-burger {
     width: 33px;
     height: auto;
+}
+
+.mobile-heading {
+    margin-top: 25px;
+    margin-left: 6px;
+}
+
+.mob-prof-col {
+    text-align: center;
+    background-image: url("./img/black-and-white-electronics-orange.jpg");
+    height: 200px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    border-top: 3px solid $main-color;
+    border-bottom: 3px solid $main-color;
+    .profile-mobile {
+        height: 180px;
+        width: 180px;
+        border-radius: 50%;
+        border: 2px solid $main-color;
+        margin-top: 6px;
+    }
+}
+
+#mob-skills {
+    background: $secondary-color;
+    margin-bottom: 5px;
+    .resume-blurb {
+        margin-left: 4px;
+        margin-right: 2px;
+        margin-bottom: 8px;
+    }
+    .resume-qualification {
+        margin-left: 15px;
+        .jobs {
+            .skills-list {
+                font-size: 12px;
+            }
+        }
+
+    }
+}
+
+
+
+
+@media only screen and (min-width: 800px) {
+    .profile-mobile {
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        border: 2px solid $main-color;
+        margin-top: 25px;
+    }
 }

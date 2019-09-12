@@ -357,6 +357,25 @@ header .header-content .nav-item .active {
   }
 }
 
+.mobile-wrapper {
+  overflow: hidden;
+  min-height: 95%;
+}
+
+.mob-footer {
+  padding-top: 3px;
+  min-height: 5%;
+  overflow: auto;
+  background: -webkit-gradient(linear, left top, left bottom, from(#0A0A0A), color-stop(45%, #1B1B1B), color-stop(65%, #242424), color-stop(75%, #1B1B1B), to(#0A0A0A));
+  background: linear-gradient(to bottom, #0A0A0A 0%, #1B1B1B 45%, #242424 65%, #1B1B1B 75%, #0A0A0A 100%);
+  text-align: center;
+}
+
+.mob-footer h5 {
+  color: white;
+  margin-top: 2px;
+}
+
 .navbar-mobile {
   background: -webkit-gradient(linear, left top, left bottom, from(#0A0A0A), color-stop(45%, #1B1B1B), color-stop(65%, #242424), color-stop(75%, #1B1B1B), to(#0A0A0A));
   background: linear-gradient(to bottom, #0A0A0A 0%, #1B1B1B 45%, #242424 65%, #1B1B1B 75%, #0A0A0A 100%);
@@ -371,7 +390,7 @@ header .header-content .nav-item .active {
 }
 
 .navbar-nav .nav-item .nav-link {
-  color: white;
+  color: white !important;
   font-weight: bold;
   font-size: 1.2rem;
 }
@@ -391,15 +410,79 @@ header .header-content .nav-item .active {
   border: 3px solid #ffa500;
 }
 
-.main-title .highlighter {
+.highlighter {
   padding: .5rem;
   margin: 0;
+  padding: 0;
   color: #ffa500;
 }
 
 .navbar-burger {
   width: 33px;
   height: auto;
+}
+
+.mobile-heading {
+  margin-top: 25px;
+  margin-left: 6px;
+}
+
+.mob-prof-col {
+  text-align: center;
+  background-image: url("./img/black-and-white-electronics-orange.jpg");
+  height: 200px;
+  /* You must set a specified height */
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
+  border-top: 3px solid #ffa500;
+  border-bottom: 3px solid #ffa500;
+}
+
+.mob-prof-col .profile-mobile {
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  border: 2px solid #ffa500;
+  margin-top: 6px;
+}
+
+#mob-skills {
+  background: #c9c5c5;
+  margin-bottom: 5px;
+}
+
+#mob-skills .resume-blurb {
+  margin-left: 4px;
+  margin-right: 2px;
+  margin-bottom: 8px;
+}
+
+#mob-skills .resume-qualification {
+  margin-left: 15px;
+}
+
+#mob-skills .resume-qualification .jobs .skills-list {
+  font-size: 12px;
+}
+
+@media only screen and (min-width: 800px) {
+  .profile-mobile {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 2px solid #ffa500;
+    margin-top: 25px;
+  }
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -506,6 +589,11 @@ p {
   .animated-block #secondary-nav .secondary-active {
     font-size: 3.8rem;
   }
+  .showcase .showcase-heading {
+    font-size: 2rem;
+    margin-bottom: .5rem;
+    margin-left: 10px;
+  }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -522,6 +610,9 @@ p {
 
 @media only screen and (min-width: 999px) {
   .mobile-wrapper {
+    display: none;
+  }
+  .mob-footer {
     display: none;
   }
 }
