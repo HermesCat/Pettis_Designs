@@ -144,7 +144,6 @@ function aboutFormat() {
         $(".nav-link").css("color", "white");
         $(".resume-click").css("color", "white");
         $(".portfolio-click").css("color", "white");
-        $(".highlighter").css("color", "white");
         $(".main-title").css("color", "black");
         $(".about-click").addClass("active");
         $(".about-click").addClass("secondary-active");
@@ -166,7 +165,6 @@ function resumeFormat() {
         $(".about-click").css("color", "white");
         $(".portfolio-click").css("color", "white");
         $(".nav-link").css("color", "black");
-        $(".highlighter").css("color", "black");
         $(".main-title").css("color", "white");
         $(".resume-click").addClass("active");
         $(".resume-click").addClass("secondary-active");
@@ -188,7 +186,6 @@ function portfolioFormat() {
         $(".about-click").css("color", "white");
         $(".portfolio-click").css("color", "white");
         $(".nav-link").css("color", "black");
-        $(".highlighter").css("color", "black");
         $(".main-title").css("color", "white");
         $(".about-click").removeClass("active");
         $(".about-click").removeClass("secondary-active");
