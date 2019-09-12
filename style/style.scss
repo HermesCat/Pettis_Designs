@@ -3,6 +3,7 @@
 @import "./about";
 @import "./header";
 @import "./portfolio";
+@import "./mobile/mobileResume";
 
 body {
     background: $background-color;
@@ -100,10 +101,10 @@ p {
             font-size: 3.5rem;
           }
           .secondary-nav-item:hover {
-            font-size: 4.5rem;
+            font-size: 3.8rem;
           }
           .secondary-active {
-            font-size: 4.2rem;
+            font-size: 3.8rem;
           }
       }
   }
@@ -114,6 +115,15 @@ p {
     display: none;
   }
   .animated-block {
+    display: none;
+  }
+  .portfolio-container {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 999px) {
+  .mobile-wrapper {
     display: none;
   }
 }
