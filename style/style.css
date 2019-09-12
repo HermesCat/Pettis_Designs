@@ -57,7 +57,7 @@
 }
 
 .resume .resume-text #skills .skills-section .skills-list {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   margin-left: 10px;
   text-align: left;
 }
@@ -73,6 +73,31 @@
   -webkit-box-pack: left;
       -ms-flex-pack: left;
           justify-content: left;
+}
+
+.resume .resume-text .jobs .skills-list {
+  font-size: 1.3rem;
+}
+
+@media only screen and (max-width: 1350px) {
+  .resume .resume-text .jobs .skills-list {
+    font-size: 1rem;
+  }
+  .resume .resume-text #skills .skills-section .skills-list {
+    font-size: 1.2rem;
+    margin-left: 8px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .resume .profile-row {
+    height: 12rem;
+  }
+  .resume .profile-row #profile-pic {
+    height: 11.6rem;
+    width: 11.6rem;
+    left: 20vh;
+  }
 }
 
 .about {
@@ -135,6 +160,15 @@ img .contact-icon {
   border-radius: 1.5em;
 }
 
+@media only screen and (max-width: 1200px) {
+  .nobull .contact-li {
+    font-size: 20px;
+  }
+  .contact-img-row {
+    height: 12rem;
+  }
+}
+
 header {
   position: absolute;
   background-color: inherit;
@@ -176,6 +210,25 @@ header .header-content .nav-item .nav-link:hover {
 header .header-content .nav-item .active {
   color: #ffa500;
   text-decoration: underline;
+}
+
+@media only screen and (max-width: 1350px) {
+  header .header-content .main-title {
+    font-size: 2.5rem;
+    margin-top: 1.5rem;
+  }
+  header .header-content .main-title .highlighter {
+    padding: .3rem;
+  }
+  header .header-content .nav-item .nav-link {
+    font-size: 1.7rem;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  header .header-content .nav-item .nav-link {
+    font-size: 1.4rem;
+  }
 }
 
 .icon-1 {
@@ -268,6 +321,42 @@ header .header-content .nav-item .active {
   text-align: center;
 }
 
+@media only screen and (max-width: 1700px) {
+  .portfolio-card {
+    min-width: 45%;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .portfolio-card {
+    min-width: 50%;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .portfolio-card {
+    min-width: 55%;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .portfolio-card {
+    min-width: 60%;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .portfolio-card {
+    min-width: 65%;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .portfolio-card {
+    min-width: 70%;
+  }
+}
+
 body {
   background: #6b6969;
   margin: 0;
@@ -345,5 +434,41 @@ body {
 
 .color-highlight {
   color: #ffa500;
+}
+
+p {
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 1430px) {
+  .showcase .showcase-heading {
+    font-size: 2.8rem;
+    margin-bottom: .5rem;
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .animated-block #secondary-nav {
+    top: 35vh;
+  }
+  .animated-block #secondary-nav .secondary-nav-item {
+    font-size: 3.5rem;
+  }
+  .animated-block #secondary-nav .secondary-nav-item:hover {
+    font-size: 4.5rem;
+  }
+  .animated-block #secondary-nav .secondary-active {
+    font-size: 4.2rem;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .page-wrapper {
+    display: none;
+  }
+  .animated-block {
+    display: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */

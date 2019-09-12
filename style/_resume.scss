@@ -41,7 +41,7 @@
                 .skills-section {
                     text-align: left;
                     .skills-list {
-                    font-size: 1.5rem;
+                    font-size: 1.7rem;
                     margin-left: 10px;
                     text-align: left;
                     }
@@ -54,9 +54,46 @@
             }
             .jobs {
                 text-align: left;
-                justify-content: left
+                justify-content: left;
+                .skills-list {
+                    font-size: 1.3rem;
+                }
             }
         }
 
 }
 
+
+@media only screen and (max-width: 1350px) {
+    .resume {
+        .resume-text {
+            .jobs {
+                .skills-list {
+                    font-size: 1rem;
+                }
+            }
+            #skills {
+            .skills-section {
+                .skills-list {
+                    font-size: 1.2rem;
+                    margin-left: 8px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .resume {
+            .profile-row {
+                height: 12rem;
+                #profile-pic {
+                    height: 11.6rem;
+                    width: 11.6rem;
+                    left: 20vh;
+                }
+            }
+    }
+}

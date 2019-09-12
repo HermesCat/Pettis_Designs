@@ -56,3 +56,14 @@ img .contact-icon {
     margin: 8px;
     border-radius: 1.5em;
 }
+
+@media only screen and (max-width: 1200px) {
+    .nobull {
+        .contact-li{
+            font-size: 20px;
+        }
+    }
+    .contact-img-row {
+                height: 12rem;
+    }
+}
