@@ -1,0 +1,60 @@
+.mobile-portfolio-heading {
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+.port-card {
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+.port-box {
+    margin: 0 auto;
+    .port-box-col {
+        margin: 0;
+        a {
+            text-decoration: none;
+                text-align: center;
+            .port-mob-img {
+                position: relative;
+                width: 150px;
+                height: 150px;
+                border: $main-color 4px solid;
+                border-radius: 2em;
+                background-size: 150px 150px;
+                margin: 5px;
+                .pmi-label {
+                    position: relative;
+                    top: 90px; 
+                    height: 40px;
+                    width: 142px;
+                    background: $main-color;
+                    text-decoration: none;
+                    color: $background-color;
+                    font-family: 'Lato', sans-serif;
+                    font-weight: bold;
+                    font-size: 22px;
+                    padding-top: 3px;
+                }
+            }
+            .pmi1 {
+                background-image: url("./img/SiteIcon6.jpg");
+            }
+            .pmi2 {
+                background-image: url("./img/SiteIcon-fv.jpg");
+            }
+            .pmi3 {
+                background-image: url("./img/SiteIcon-gb.jpg");
+            }
+            .pmi4 {
+                background-image: url("./img/SiteIcon-pdold.jpg");
+            }
+            .pmi5 {
+                background-image: url("./img/SiteIcon4.jpg");
+            }
+            .pmi6 {
+                background-image: url("./img/SiteIcon2.jpg");
+            }
+        }
+    }
+}
+}

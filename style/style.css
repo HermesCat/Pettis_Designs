@@ -493,6 +493,114 @@ header .header-content .nav-item .active {
   }
 }
 
+.contact-img-mobile {
+  text-align: center;
+  background-image: url("./img/capacitors-chip-circuit-2588757.jpg");
+  height: 200px;
+  /* You must set a specified height */
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
+  border-top: 3px solid #ffa500;
+  border-bottom: 3px solid #ffa500;
+}
+
+.mobile-about-heading {
+  margin-top: 25px;
+  margin-left: 0;
+}
+
+.mobile-subheading {
+  margin-left: 24px;
+}
+
+.mobile-power {
+  margin-left: 24px;
+}
+
+@media only screen and (min-width: 500px) {
+  .mobile-about-heading {
+    font-size: 30px;
+  }
+}
+
+.mobile-portfolio-heading {
+  margin-left: 10px;
+  margin-top: 25px;
+}
+
+.port-card {
+  margin: 0 auto;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.port-card .port-box {
+  margin: 0 auto;
+}
+
+.port-card .port-box .port-box-col {
+  margin: 0;
+}
+
+.port-card .port-box .port-box-col a {
+  text-decoration: none;
+  text-align: center;
+}
+
+.port-card .port-box .port-box-col a .port-mob-img {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border: #ffa500 4px solid;
+  border-radius: 2em;
+  background-size: 150px 150px;
+  margin: 5px;
+}
+
+.port-card .port-box .port-box-col a .port-mob-img .pmi-label {
+  position: relative;
+  top: 90px;
+  height: 40px;
+  width: 142px;
+  background: #ffa500;
+  text-decoration: none;
+  color: #6b6969;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  padding-top: 3px;
+}
+
+.port-card .port-box .port-box-col a .pmi1 {
+  background-image: url("./img/SiteIcon6.jpg");
+}
+
+.port-card .port-box .port-box-col a .pmi2 {
+  background-image: url("./img/SiteIcon-fv.jpg");
+}
+
+.port-card .port-box .port-box-col a .pmi3 {
+  background-image: url("./img/SiteIcon-gb.jpg");
+}
+
+.port-card .port-box .port-box-col a .pmi4 {
+  background-image: url("./img/SiteIcon-pdold.jpg");
+}
+
+.port-card .port-box .port-box-col a .pmi5 {
+  background-image: url("./img/SiteIcon4.jpg");
+}
+
+.port-card .port-box .port-box-col a .pmi6 {
+  background-image: url("./img/SiteIcon2.jpg");
+}
+
 html, body {
   height: 100%;
   margin: 0;

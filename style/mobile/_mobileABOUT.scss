@@ -1,0 +1,30 @@
+.contact-img-mobile {
+    text-align: center;
+    background-image: url("./img/capacitors-chip-circuit-2588757.jpg");
+    height: 200px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    border-top: 3px solid $main-color;
+    border-bottom: 3px solid $main-color;
+}
+
+.mobile-about-heading {
+    margin-top: 25px;
+    margin-left: 0;
+}
+
+.mobile-subheading {
+    margin-left: 24px;
+}
+
+.mobile-power {
+    margin-left: 24px;
+}
+
+@media only screen and (min-width: 500px) {
+    .mobile-about-heading {
+        font-size: 30px;
+    }
+    
+}
